@@ -15,7 +15,12 @@ p{font-size: 30px;}
 #message-el{
     font-style: italic;
 }
-#start{
+#button{
+    display: grid;
+    grid-template-rows:50% 50% ;
+    justify-content: center;
+}
+.btn{
     background-color: gold;
     color: #01662D;
     width: 300px;
@@ -26,6 +31,11 @@ p{font-size: 30px;}
     border: none;
     border-radius: 10px;
     letter-spacing: 4px;
-    margin-top: 50px;
     cursor : pointer ; 
+    margin :3px 0px ;
+    transition: 0.3s ;
+}
+.btn:hover{
+    border: 1px solid white;
+    font-size: 25px;
 }
