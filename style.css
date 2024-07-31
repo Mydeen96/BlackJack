@@ -8,7 +8,7 @@ body{
     height: 80vh;
 }
 h1{
-    font-size: 100px;
+    font-size: 80px;
     color: goldenrod;
 }
 p{font-size: 30px;}
@@ -16,26 +16,26 @@ p{font-size: 30px;}
     font-style: italic;
 }
 #button{
-    display: grid;
-    grid-template-rows:50% 50% ;
-    justify-content: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 .btn{
     background-color: gold;
     color: #01662D;
-    width: 300px;
-    height: 50px;
-    font-size: 20px;
+    padding: 15px ;
+    width: 280px;
+    font-size: 18px;
     font-weight: bold;
     outline: none;
     border: none;
     border-radius: 10px;
     letter-spacing: 4px;
     cursor : pointer ; 
-    margin :3px 0px ;
+    margin : 10px;
     transition: 0.3s ;
 }
 .btn:hover{
     border: 1px solid white;
-    font-size: 25px;
+    font-size: 20px;
 }
